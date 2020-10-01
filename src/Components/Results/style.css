@@ -20,12 +20,10 @@
 }
 
 .box-results .card h3 {
-    color: #FFF;
+    color: #000000;
     margin-top: 0;
 	font-size: 20px;
 	font-weight: 600;
 	max-width: 250px;
 	padding: 10px;
-	background: #445565;
-	transition: 0.4s ease-out;
 }
