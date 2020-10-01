@@ -1,0 +1,37 @@
+body{
+   background: #51485c1b;
+}
+header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-items: center;
+
+   flex-direction: column;
+   border-bottom: 0.2rem double #00000038;
+}
+header .btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  width: 50%;
+}
+
+header .btn button{
+width: 10rem;
+height: 2.5rem;
+outline: 0;
+
+border-radius: 1rem;
+border-color: #00000064;
+
+background:#0000001b  ;
+
+
+margin: 2rem 2rem 1rem 2rem;
+}
+header .btn button:hover,
+   header .btn button:focus{
+background:#00000038  ;
+
+}
