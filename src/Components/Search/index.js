@@ -6,7 +6,7 @@ function Search ({ handleInput, search }) {
 		<div className='search-box'>
 			<input className='search'
 				type="text" 
-				placeholder="Pesquisa um filmes ou series" 
+				placeholder="Pesquisa um filmes ou series: 'batman', 'pressione enter'" 
 				onChange={handleInput}
 				onKeyPress={search}
 			/>

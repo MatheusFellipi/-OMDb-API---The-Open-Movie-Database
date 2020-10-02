@@ -1,7 +1,15 @@
 .box-results {
 	display: flex;
-    flex-wrap: wrap;
-    margin-top: 1rem;
+	flex-wrap: wrap;
+	
+	margin-left: auto;
+    margin-right: auto;
+    width: 72rem;
+    margin-top: 3rem;
+}
+.box-results h1{
+width: 50hv;
+height: 50vh;
 }
 
 .box-results .card {
@@ -20,7 +28,7 @@
 }
 
 .box-results .card h3 {
-    color: #000000;
+    color: rgb(0, 0, 0);
     margin-top: 0;
 	font-size: 20px;
 	font-weight: 600;

@@ -1,5 +1,11 @@
 body{
-   background: #51485c1b;
+   background: #ffffff1b;
+}
+main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 header{
    display: flex;
