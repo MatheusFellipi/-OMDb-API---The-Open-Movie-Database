@@ -21,6 +21,7 @@ function Results({ results, openDetails }) {
 					</div>
 				))}
 			</div>
+			
 		)
 	}
 
