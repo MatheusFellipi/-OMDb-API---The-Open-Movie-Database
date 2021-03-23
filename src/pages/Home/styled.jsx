@@ -39,8 +39,5 @@ export const TitleSpan = styled.span`
 
   font-family:${(props) => props.theme.fonts.Light};
   font-size: 16px;
-
- 
-
 `;
 

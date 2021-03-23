@@ -43,6 +43,7 @@
   },
   "description": "axios  styled-components styled-reset npm install bootstrap npm install react-bootstrap bootstrap",
   "main": "index.js",
+  "devDependencies": {},
   "author": "",
   "license": "ISC"
 }
