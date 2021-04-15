@@ -6,7 +6,6 @@ function Resutados({ results, openModal }) {
     <div onClick={() => openModal(results.imdbID)}>
       <ImgResults src={results.Poster} alt={results.Title} />
     </div>
-
   )
 }
 export default Resutados;

@@ -33,7 +33,7 @@ function Home() {
   ];
 
   useEffect(() => {
-    if (type == "movie" || type == "series") {
+    if (type === "movie" || type === "series") {
       axios(
         "?apikey=" +
           process.env.REACT_APP_KEY +
@@ -62,8 +62,8 @@ function Home() {
   const MudarTipo = (e) => {
     let typeName = e.target.value;
 
-    if (typeName == 1) setType("movie");
-    else if (typeName == 2) setType("series");
+    if (typeName === 1) setType("movie");
+    else if (typeName === 2) setType("series");
   };
 
   const openModal = (id) => {
