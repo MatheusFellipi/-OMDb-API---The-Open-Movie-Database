@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { ButtonGroup, ToggleButton, Modal, Button } from 'react-bootstrap';
+import { Modal, Button } from 'react-bootstrap';
 
 
 

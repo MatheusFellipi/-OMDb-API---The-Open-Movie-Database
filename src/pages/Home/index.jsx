@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "../../services/axios";
 
-import { Search, Results, Detalhes } from "../../components";
+import { Search, Results, Detalhes } from "../../Components";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ButtonGroup, ToggleButton } from "react-bootstrap";
@@ -34,7 +34,6 @@ function Home() {
 
   useEffect(() => {
     if (type == "movie" || type == "series") {
-      console.log(type);
       axios(
         "?apikey=" +
           process.env.REACT_APP_KEY +
