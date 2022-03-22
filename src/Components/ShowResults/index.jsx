@@ -7,17 +7,13 @@ export default function ShowResults({ results, openModal }) {
     <>
       {!results ?
         <SemResultados>
-          <TextoP>Pesguise um filme ou serie</TextoP>
+          <TextoP>Sem resultado</TextoP>
         </SemResultados> :
         <>
           {results.map(result => (
-
             <ResultCard key={result.imdbID}>
               <Resutados results={result} openModal={()=>openModal(result.imdbID)} />
-
             </ResultCard>
-
-
           ))}
         </>}
     </>

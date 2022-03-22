@@ -5,7 +5,6 @@ const theme ={
     apoio:'#58555C',
     input_background:'#E2DCED',
     
-
   },
   fonts:{
     Light :'Roboto, 300 sans-serif',

@@ -13,13 +13,9 @@ function Detalhes({ selecionar, closeModal, show }) {
     <>
       <ContentDetalhes show={show} onHide={closeModal} enforceFocus={false}>
         <DetalhesBody>
-
-
           <ContentDetalhesHeader>
             <DetalhesTitle>{selecionar.Title} <DetalhesSpan>{selecionar.Year}</DetalhesSpan> </DetalhesTitle>
-
             <Buttons variant="danger" onClick={closeModal}>Fechar</Buttons>
-
           </ContentDetalhesHeader>
           <ContentStart>
             <ReactStars
@@ -28,7 +24,7 @@ function Detalhes({ selecionar, closeModal, show }) {
               activeColor="#ffd700"
               edit={false}
               isHalf={true}
-              value={selecionar.imdbRating}
+              value={parseFloat(selecionar.imdbRating)}
             />
           </ContentStart>
 
@@ -45,10 +41,7 @@ function Detalhes({ selecionar, closeModal, show }) {
               <DetalhesTexto >Lançamento:<DetalhesSpan> {selecionar.Released}</DetalhesSpan></DetalhesTexto>
               <DetalhesTexto >{selecionar.Plot}</DetalhesTexto>
             </ContentInfo>
-
-
           </ContentePlot>
-
         </DetalhesBody>
       </ContentDetalhes>
     </>

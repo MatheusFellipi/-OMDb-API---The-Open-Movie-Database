@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const Input = styled.input.attrs({
   type: 'text',
-  placeholder: 'Pesquisa filme ou serie'
 })`
   font-family: 'Roboto, sans-serif;';
   font-size: 400;
